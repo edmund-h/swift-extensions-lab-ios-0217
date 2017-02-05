@@ -18,6 +18,7 @@
 		1BA85B491D25C4FC008D42CE /* ExtensionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA85B481D25C4FC008D42CE /* ExtensionsUITests.swift */; };
 		1BA85BCB1D2E8F58008D42CE /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA85BCA1D2E8F58008D42CE /* ExtensionTests.swift */; };
 		2B81C81CFC9DA0198C86FDB9 /* Pods_Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9A36CDB134FD4C83530F9B /* Pods_Extensions.framework */; };
+		885212481E46CBE5009E6F3B /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885212471E46CBE5009E6F3B /* extensions.swift */; };
 		C7F667413222925F1AFBFC7B /* Pods_ExtensionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5B514775C0A208B2DB7280 /* Pods_ExtensionsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		6183A09F1B2877C65C4D59F6 /* Pods_ExtensionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExtensionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A858B5C1743EC1799E39869 /* Pods-ExtensionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExtensionsUITests/Pods-ExtensionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		851086FDAB7F0013EA3E5F7C /* Pods-ExtensionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExtensionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExtensionsTests/Pods-ExtensionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		885212471E46CBE5009E6F3B /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		B67EC0B9E85177B62984CFFE /* Pods-Extensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extensions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Extensions/Pods-Extensions.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9A36CDB134FD4C83530F9B /* Pods_Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DD57B338C497566D3ACCF6 /* Pods-Extensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Extensions.release.xcconfig"; path = "Pods/Target Support Files/Pods-Extensions/Pods-Extensions.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		1BA85B271D25C4FC008D42CE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				885212471E46CBE5009E6F3B /* extensions.swift */,
 				1BA85B281D25C4FC008D42CE /* AppDelegate.swift */,
 				1BA85B2A1D25C4FC008D42CE /* ViewController.swift */,
 				1BA85B2C1D25C4FC008D42CE /* Main.storyboard */,
@@ -455,6 +458,7 @@
 			files = (
 				1BA85B2B1D25C4FC008D42CE /* ViewController.swift in Sources */,
 				1BA85B291D25C4FC008D42CE /* AppDelegate.swift in Sources */,
+				885212481E46CBE5009E6F3B /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
